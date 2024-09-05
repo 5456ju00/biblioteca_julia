@@ -57,3 +57,19 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #3e8e41;
 }
+
+
+.btn-class {
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  background: #4CAF50;
+  color: #fff;
+}

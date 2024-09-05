@@ -1,25 +1,25 @@
-var meuFormulario = document.getElementById("cadastro_professor");
+var meuFormulario = document.getElementById("cadastrar_emprestimo");
 meuFormulario.addEventListener("submit", function(event) {
   event.preventDefault();
-  cadastrar_professor();
+  cadastrar_emprestimo();
 });
 
-function capturarPrimeiroNumeroInteiro() {
-  const primeiro_numero_inteiro = Number(document.getElementById("nome_prof").value);
-  return primeiro_numero_inteiro;
+function cadastrar_emprestimo() {
+  const cadastrar_emprestimo = Number(document.getElementById("cadastrar_emprestimo").value);
+  return cadastrar_emprestimo;
 }
 
-function capturarSegundoNumeroInteiro() {
- const segundo_numero_inteiro = Number(document.getElementById("segundo_numero_inteiro").value); 
- return segundo_numero_inteiro;
+function cadastrar_emprestimo() {
+ const cadastrar_emprestimo = Number(document.getElementById("cadastrar_emprestimo").value); 
+ return cadastrar_emprestimo;
 }
 
 
 function somar() {
-  let primeiro_numero_inteiro = capturarPrimeiroNumeroInteiro();
-  let segundo_numero_inteiro = capturarSegundoNumeroInteiro();
-  let resultado_soma = primeiro_numero_inteiro + segundo_numero_inteiro;
-  imprimirResultadoNaTela(resultado_soma);
+  let cadastrar_emprestimo = cadastrar_emprestimo();
+  let cadastrar_emprestimo = cadastrar_emprestimo();
+  let cadastrar_emprestimo = cadastrar_emprestimo + cadastrar_emprestimo;
+  imprimirResultadoNaTela(cadastrar_emprestimo);
 }
 
 

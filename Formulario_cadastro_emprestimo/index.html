@@ -9,17 +9,18 @@
 <body>
 	<h1>Emprestimo</h1>
 	<form id="cadastro_emprestimo">
-		<label for="cgm_aluno">Cgm do Aluno:</label>
-		<input type="text" id="cgm_aluno"><br>
 		
-		<label for="inbs_livro">Inbs do Livro:</label>
-		<input type="text" id="inbs_livro"><br>
+		<input type="text" value="Cgm:" onfocus="if (this.value == 'Cgm:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Cgm:';}">
 
-		<label for="data_emprestimo_livro">Data de Emprestimo:</label>
-		<input type="text" id="data_entrega_livro"><br>
+		<input type="text" value="Isbn:" onfocus="if (this.value == 'Isbn:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Isbn:';}">
 
-		<label for="data_entrega_livro">Data de Devolução:</label>
-		<input type="text" id="cgm_aluno"><br>
+		<input type="text" value="Data de Emprestimo:" onfocus="if (this.value == 'Data de Emprestimo:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Data de Emprestimo:';}">
+
+		<input type="text" value="Data de Devolução:" onfocus="if (this.value == 'Data de Devolução:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Data de Devolução:';}">
+
+		<input type="text" value="Telefone:" onfocus="if (this.value == 'Telefone:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Telefone:';}">
+
+		<input type="text" value="Data de Nascimento:" onfocus="if (this.value == 'Data de Nascimento:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Data de Nascimento:';}">
 
 	<div class="btn-class">
 		<button type="button" id="submit-btn-salvar>onclick=salvar()">Salvar</button>
